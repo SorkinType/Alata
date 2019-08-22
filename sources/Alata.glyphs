@@ -6,7 +6,8 @@ DisplayStrings = (
 "/idotless",
 "/f_i",
 "",
-"/f_l"
+"/f_l",
+A
 );
 classes = (
 {
@@ -245,7 +246,7 @@ xHeight = 459;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2018-06-22 19:02:49 +0000";
+lastChange = "2019-08-22 13:33:38 +0000";
 layers = (
 {
 anchors = (
