@@ -1,18 +1,13 @@
 {
-.appVersion = "1150";
+.appVersion = "1230";
 DisplayStrings = (
 "/Uring",
-"/doubleprimemod",
-"/primemod",
-"@",
-"/at.case",
-"H/at.case",
-"/at.case",
-"/Germandbls",
+"/f_f  /f_f_i  /f_f_i_dflt  /f_f_l  /f_i  /f_i_trk  /f_l   \012ff ffi ff/idotless  ffl fi f/idotless  fl fi fl",
+"/idotless",
+"/f_i",
 "",
-"/enspace",
-"¤",
-"/lira"
+"/f_l",
+A
 );
 classes = (
 {
@@ -33,7 +28,7 @@ code = " zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom sev
 name = denominators;
 }
 );
-copyright = "Copyright (c) 2011-2018, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \"Alata\"";
+copyright = "Copyright 2019 The Alata Project Authors (https://github.com/SorkinType/Alata)";
 customParameters = (
 {
 name = license;
@@ -209,7 +204,7 @@ value = 1245;
 },
 {
 name = winDescent;
-value = -570;
+value = 330;
 },
 {
 name = underlineThickness;
@@ -251,7 +246,7 @@ xHeight = 459;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2018-06-22 19:02:49 +0000";
+lastChange = "2019-08-22 13:33:38 +0000";
 layers = (
 {
 anchors = (
@@ -10005,7 +10000,7 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = f;
-lastChange = "2018-06-22 20:13:50 +0000";
+lastChange = "2019-08-21 00:44:00 +0000";
 layers = (
 {
 anchors = (
@@ -15549,9 +15544,23 @@ unicode = 1E93;
 },
 {
 glyphname = f_f;
-lastChange = "2018-06-22 18:32:31 +0000";
+lastChange = "2019-08-21 00:44:39 +0000";
 layers = (
 {
+anchors = (
+{
+name = btm;
+position = "{931, 0}";
+},
+{
+name = caret_1;
+position = "{362, 0}";
+},
+{
+name = top;
+position = "{910, 968}";
+}
+);
 components = (
 {
 name = f;
@@ -15579,9 +15588,19 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = f_f_i;
-lastChange = "2018-06-22 18:32:31 +0000";
+lastChange = "2019-08-21 00:44:39 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{353, 0}";
+},
+{
+name = caret_2;
+position = "{705, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -15617,9 +15636,19 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = f_f_i_dflt;
-lastChange = "2018-06-22 18:32:31 +0000";
+lastChange = "2019-08-21 00:44:39 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{358, 0}";
+},
+{
+name = caret_2;
+position = "{709, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -15642,9 +15671,19 @@ rightKerningGroup = i;
 },
 {
 glyphname = f_f_l;
-lastChange = "2018-06-22 18:32:31 +0000";
+lastChange = "2019-08-21 00:44:39 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{357, 0}";
+},
+{
+name = caret_2;
+position = "{708, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -15676,9 +15715,15 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = f_i;
-lastChange = "2018-06-22 18:32:31 +0000";
+lastChange = "2019-08-21 00:52:01 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{348, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -15696,13 +15741,18 @@ layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
 width = 632;
 }
 );
-unicode = FB01;
 },
 {
 glyphname = f_i_trk;
-lastChange = "2018-06-22 18:32:31 +0000";
+lastChange = "2019-08-21 00:44:24 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{344, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -15719,9 +15769,15 @@ width = 632;
 },
 {
 glyphname = f_l;
-lastChange = "2018-06-22 18:32:31 +0000";
+lastChange = "2019-08-21 00:55:25 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{353, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -15735,13 +15791,18 @@ layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
 width = 630;
 }
 );
-unicode = FB02;
 },
 {
 glyphname = fi;
-lastChange = "2018-06-22 22:09:08 +0000";
+lastChange = "2019-08-21 00:54:41 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{341, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -15757,6 +15818,7 @@ width = 632;
 );
 leftKerningGroup = f;
 rightKerningGroup = i;
+unicode = FB01;
 userData = {
 com.typemytype.robofont.mark = (
 1,
@@ -15768,9 +15830,15 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = fl;
-lastChange = "2018-06-22 22:09:08 +0000";
+lastChange = "2019-08-21 00:55:37 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{346, 0}";
+}
+);
 components = (
 {
 name = f;
@@ -15786,6 +15854,7 @@ width = 630;
 );
 leftKerningGroup = f;
 rightKerningGroup = l;
+unicode = FB02;
 userData = {
 com.typemytype.robofont.mark = (
 1,
@@ -19071,7 +19140,7 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = four.dnom;
-lastChange = "2018-06-22 22:17:12 +0000";
+lastChange = "2019-08-21 00:24:53 +0000";
 layers = (
 {
 layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
@@ -23653,7 +23722,7 @@ unicode = 20AD;
 },
 {
 glyphname = lira;
-lastChange = "2018-06-22 22:23:11 +0000";
+lastChange = "2019-08-20 23:15:36 +0000";
 layers = (
 {
 layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
@@ -31881,6 +31950,7 @@ six.lt = -40;
 "@MMK_L_f" = {
 "@MMK_R_braceright" = 70;
 "@MMK_R_bracketright" = 70;
+"@MMK_R_f" = 0;
 "@MMK_R_parenright" = 60;
 "@MMK_R_period" = -40;
 "@MMK_R_quoteleft" = 40;
