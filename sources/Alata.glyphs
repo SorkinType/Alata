@@ -7,7 +7,8 @@ DisplayStrings = (
 "/f_i",
 "/f_l",
 "HHWHOWOOHHWOH\012WAFTING VATING OVO\012QUICK ZEPHYRS\012VEX BOLD JIM  \012zephyrs nnynoyoo Popayan\012nxoeAHIFTJOhmrbpdqf\012nnynoyoonn\012ABCDEFGHIJKLMNOPQRSTUVWXYZ\012abcdefghijklmnopqrstuvonwonkxyz",
-"AAWVMNvw\0121234567890"
+"AAWVMNvw\0121234567890",
+"0123456789\012/zero.lf/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf \012/zero.lf.zero/zero.lt/one.lt/two.lt/three.lt/four.lt/five.lt/six.lt/seven.lt/eight.lt"
 );
 classes = (
 {
@@ -17551,7 +17552,7 @@ rightMetricsKey = zero;
 },
 {
 glyphname = zero.lt;
-lastChange = "2018-06-22 18:32:31 +0000";
+lastChange = "2019-10-31 02:07:30 +0000";
 layers = (
 {
 layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
