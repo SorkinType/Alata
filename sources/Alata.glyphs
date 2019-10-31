@@ -231,14 +231,13 @@ position = "{-84, 843}";
 }
 );
 horizontalStems = (
-91,
-80,
-98
+98,
+88
 );
 id = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
 verticalStems = (
-106,
-95
+108,
+112
 );
 xHeight = 459;
 }
