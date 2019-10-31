@@ -16383,8 +16383,9 @@ com.typemytype.robofont.mark = (
 };
 },
 {
+color = 11;
 glyphname = zero;
-lastChange = "2019-10-30 23:22:01 +0000";
+lastChange = "2019-10-31 01:33:28 +0000";
 layers = (
 {
 background = {
@@ -16510,8 +16511,9 @@ com.typemytype.robofont.mark = (
 };
 },
 {
+color = 11;
 glyphname = two;
-lastChange = "2019-10-30 23:20:04 +0000";
+lastChange = "2019-10-31 01:33:28 +0000";
 layers = (
 {
 background = {
@@ -16595,9 +16597,9 @@ com.typemytype.robofont.mark = (
 };
 },
 {
-color = 8;
+color = 11;
 glyphname = three;
-lastChange = "2019-10-30 23:20:15 +0000";
+lastChange = "2019-10-31 01:33:28 +0000";
 layers = (
 {
 background = {
@@ -16687,9 +16689,9 @@ com.typemytype.robofont.mark = (
 };
 },
 {
-color = 8;
+color = 11;
 glyphname = four;
-lastChange = "2019-10-30 23:23:40 +0000";
+lastChange = "2019-10-31 01:33:28 +0000";
 layers = (
 {
 layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
@@ -16730,8 +16732,9 @@ com.typemytype.robofont.mark = (
 };
 },
 {
+color = 11;
 glyphname = five;
-lastChange = "2019-10-30 23:20:27 +0000";
+lastChange = "2019-10-31 01:33:28 +0000";
 layers = (
 {
 background = {
@@ -16827,8 +16830,9 @@ com.typemytype.robofont.mark = (
 };
 },
 {
+color = 11;
 glyphname = six;
-lastChange = "2019-10-30 23:24:22 +0000";
+lastChange = "2019-10-31 01:33:28 +0000";
 layers = (
 {
 background = {
@@ -16970,9 +16974,9 @@ com.typemytype.robofont.mark = (
 };
 },
 {
-color = 8;
+color = 11;
 glyphname = eight;
-lastChange = "2019-10-30 23:20:49 +0000";
+lastChange = "2019-10-31 01:33:28 +0000";
 layers = (
 {
 background = {
@@ -17147,8 +17151,9 @@ com.typemytype.robofont.mark = (
 };
 },
 {
+color = 11;
 glyphname = nine;
-lastChange = "2019-10-30 23:21:23 +0000";
+lastChange = "2019-10-31 01:33:28 +0000";
 layers = (
 {
 background = {
