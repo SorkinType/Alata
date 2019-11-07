@@ -1,5 +1,5 @@
 {
-.appVersion = "1272";
+.appVersion = "1230";
 DisplayStrings = (
 "/Uring",
 "/f_f  /f_f_i  /f_f_i_dflt  /f_f_l  /f_i  /f_i_trk  /f_l   \012ff ffi ff/idotless  ffl fi f/idotless  fl fi fl",
@@ -59,21 +59,16 @@ name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
 {
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
 name = openTypeNameLicense;
 value = "http://scripts.sil.org/OFL";
 },
 {
 name = description;
 value = "Alata is a geometric sans.";
-},
-{
-name = fsType;
-value = (
-);
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
 },
 {
 name = trademark;
@@ -87,6 +82,10 @@ value = (
 {
 name = vendorID;
 value = STC;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2018-06-19 19:10:22 +0000";
@@ -210,7 +209,7 @@ value = 1100;
 },
 {
 name = typoDescender;
-value = -264;
+value = -280;
 },
 {
 name = typoLineGap;
@@ -222,7 +221,7 @@ value = 1100;
 },
 {
 name = hheaDescender;
-value = -264;
+value = -280;
 },
 {
 name = hheaLineGap;
@@ -230,11 +229,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1245;
+value = 1300;
 },
 {
 name = winDescent;
-value = 330;
+value = 350;
 },
 {
 name = underlineThickness;
