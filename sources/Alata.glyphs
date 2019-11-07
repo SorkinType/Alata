@@ -1,5 +1,5 @@
 {
-.appVersion = "1230";
+.appVersion = "1272";
 DisplayStrings = (
 "/Uring",
 "/f_f  /f_f_i  /f_f_i_dflt  /f_f_l  /f_i  /f_i_trk  /f_l   \012ff ffi ff/idotless  ffl fi f/idotless  fl fi fl",
@@ -278,7 +278,7 @@ xHeight = 459;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2019-10-30 22:51:24 +0000";
+lastChange = "2019-11-07 23:27:46 +0000";
 layers = (
 {
 anchors = (
@@ -320,14 +320,14 @@ paths = (
 {
 closed = 1;
 nodes = (
+"339 756 LINE",
+"-16 0 LINE",
 "109 0 LINE",
 "172 144 LINE",
 "509 144 LINE",
 "572 0 LINE",
 "701 0 LINE",
-"342 760 LINE",
-"341 760 LINE",
-"-16 0 LINE"
+"344 756 LINE"
 );
 },
 {
