@@ -5,4 +5,5 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
+Spyros Zevelakis <office@2xux.com>
 Eben Sorkin <sorkineben@gmail.com>
