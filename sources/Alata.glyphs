@@ -1,5 +1,5 @@
 {
-.appVersion = "1272";
+.appVersion = "1230";
 DisplayStrings = (
 "/Uring",
 "/f_f  /f_f_i   /f_f_l  /f_i   /f_l   \012ff ffi ff/idotless  ffl fi f/idotless  fl fi fl",
@@ -9,7 +9,6 @@ DisplayStrings = (
 "HHWHOWOOHHWOH\012WAFTING VATING OVO\012QUICK ZEPHYRS\012VEX BOLD JIM  \012zephyrs nnynoyoo Popayan\012nxoeAHIFTJOhmrbpdqf\012nnynoyoonn\012ABCDEFGHIJKLMNOPQRSTUVWXYZ\012abcdefghijklmnopqrstuvonwonkxyz",
 "AAWVMNvw\0121234567890",
 "0123456789\012/zero.lf/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf \012/zero.lf.zero/zero.lt/one.lt/two.lt/three.lt/four.lt/five.lt/six.lt/seven.lt/eight.lt",
-A,
 W,
 "9",
 "/nine.lf",
@@ -29,7 +28,6 @@ W,
 "/eight.dnom",
 "/six.dnom",
 "/four.lf",
-W,
 N,
 f,
 M,
@@ -2462,17 +2460,17 @@ unicode = 1EBC;
 },
 {
 glyphname = F;
-lastChange = "2018-06-22 18:32:31 +0000";
+lastChange = "2019-11-08 03:00:47 +0000";
 layers = (
 {
 anchors = (
 {
 name = btm;
-position = "{216, -10}";
+position = "{215, -10}";
 },
 {
 name = top;
-position = "{230, 725}";
+position = "{229, 725}";
 }
 );
 layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
@@ -2480,20 +2478,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"189 0 LINE",
-"189 332 LINE",
-"371 332 LINE",
-"371 430 LINE",
-"189 430 LINE",
-"189 638 LINE",
-"423 638 LINE",
-"423 735 LINE",
-"78 735 LINE",
-"78 0 LINE"
+"188 0 LINE",
+"188 332 LINE",
+"370 332 LINE",
+"370 430 LINE",
+"188 430 LINE",
+"188 638 LINE",
+"422 638 LINE",
+"422 735 LINE",
+"77 735 LINE",
+"77 0 LINE"
 );
 }
 );
-width = 468;
+width = 467;
 }
 );
 leftKerningGroup = H;
