@@ -1,5 +1,5 @@
 {
-.appVersion = "1272";
+.appVersion = "1230";
 DisplayStrings = (
 "/Uring",
 "/f_f  /f_f_i   /f_f_l  /f_i   /f_l   \012ff ffi ff/idotless  ffl fi f/idotless  fl fi fl",
@@ -74,8 +74,7 @@ E,
 "/trademark",
 "/servicemark",
 "/Ygrave",
-"*",
-w
+"*"
 );
 classes = (
 {
