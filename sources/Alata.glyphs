@@ -187,7 +187,6 @@ lookup ccmp_latn_2;
 tag = ccmp;
 },
 {
-automatic = 1;
 code = "script latn;
 language AZE;
 lookup locl_latn_0 {
@@ -227,6 +226,15 @@ language NSM;
 lookup locl_latn_3 {
 	sub Eng by Eng.loclNSM;
 } locl_latn_3;
+lookup locl_latn_3;
+language ISM;
+lookup locl_latn_3;
+language SKS;
+lookup locl_latn_3;
+language LSM;
+lookup locl_latn_3;
+language LSM;
+lookup locl_latn_3;
 
 script latn;
 language CAT;
