@@ -1,22 +1,6 @@
 {
-.appVersion = "3227";
+.appVersion = "3251";
 .formatVersion = 3;
-DisplayStrings = (
-"ɨ",
-"/istroke.dotless",
-"iɨ",
-"/ogonekcomb.case",
-"/brevecomb_tildecombcomb",
-"
-",
-"̇̆/brevecomb_acutecombcomb/brevecomb_gravecombcomb/brevecomb_hookabovecombcomb/brevecomb_tildecombcomb ̑/brevecomb_acutecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/brevecomb.case",
-C,
-E,
-"/macronbelowcomb.case",
-"/brevebelowcomb.case",
-"/breveinvertedcomb.case",
-P
-);
 axes = (
 {
 name = Weight;
@@ -93,6 +77,9 @@ languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn MAH;
 languagesystem latn NSM;
+languagesystem latn ISM;
+languagesystem latn SKS;
+languagesystem latn LSM;
 languagesystem latn CAT;
 languagesystem latn NLD;
 ";
@@ -703,6 +690,8 @@ sub bracketleft by bracketleft.case;
 sub bracketright by bracketright.case;
 sub guillemetleft by guillemetleft.case;
 sub guillemetright by guillemetright.case;
+sub guilsinglleft by guilsinglleft.case;
+sub guilsinglright by guilsinglright.case;
 sub at by at.case;
 sub dieresiscomb by dieresiscomb.case;
 sub dotaccentcomb by dotaccentcomb.case;
@@ -2193,14 +2182,17 @@ unicode = 385;
 glyphname = Bmacronbelow;
 kernLeft = KO_N;
 kernRight = KO_B;
+lastChange = "2024-04-10 15:11:10 +0000";
 layers = (
 {
 layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
 shapes = (
 {
+alignment = -1;
 ref = B;
 },
 {
+alignment = -1;
 pos = (278,-10);
 ref = macronbelowcomb.case;
 }
@@ -2789,15 +2781,17 @@ unicode = 394;
 glyphname = Dlinebelow;
 kernLeft = KO_N;
 kernRight = KO_D;
-lastChange = "2018-06-22 18:32:31 +0000";
+lastChange = "2024-04-10 15:11:10 +0000";
 layers = (
 {
 layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
 shapes = (
 {
+alignment = -1;
 ref = D;
 },
 {
+alignment = -1;
 pos = (333,0);
 ref = macronbelowcomb.case;
 }
@@ -29916,6 +29910,46 @@ L = quotes;
 R = quotes;
 };
 };
+},
+{
+glyphname = guilsinglleft.case;
+lastChange = "2024-04-10 15:35:43 +0000";
+layers = (
+{
+layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
+shapes = (
+{
+closed = 1;
+nodes = (
+(370,166,l),
+(205,348,l),
+(374,527,l),
+(312,602,l),
+(60,349,l),
+(312,97,l)
+);
+}
+);
+width = 454;
+}
+);
+},
+{
+glyphname = guilsinglright.case;
+lastChange = "2024-04-10 15:35:47 +0000";
+layers = (
+{
+layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
+shapes = (
+{
+pos = (454,40);
+ref = guilsinglleft;
+scale = (-1,1);
+}
+);
+width = 454;
+}
+);
 },
 {
 glyphname = florin;
