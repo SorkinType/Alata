@@ -22220,7 +22220,7 @@ unicode = (937,969);
 glyphname = mu;
 kernLeft = KO_mu;
 kernRight = KO_mu;
-lastChange = "2018-06-22 18:32:31 +0000";
+lastChange = "2024-04-11 12:09:46 +0000";
 layers = (
 {
 layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
@@ -22245,10 +22245,10 @@ nodes = (
 (389,81,o),
 (313,81,cs),
 (233,81,o),
-(219,129,o),
+(217,129,o),
 (217,216,cs),
-(213,463,l),
-(103,463,l),
+(217,463,l),
+(106,463,l),
 (106,-173,l)
 );
 }
@@ -34262,7 +34262,7 @@ com.typemytype.robofont.mark = (
 glyphname = micro;
 kernLeft = KO_micro;
 kernRight = KO_micro;
-lastChange = "2018-06-22 18:32:31 +0000";
+lastChange = "2024-04-11 12:09:30 +0000";
 layers = (
 {
 layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
@@ -34287,10 +34287,10 @@ nodes = (
 (389,81,o),
 (313,81,cs),
 (233,81,o),
-(219,129,o),
+(217,129,o),
 (217,216,cs),
-(213,463,l),
-(103,463,l),
+(217,463,l),
+(106,463,l),
 (106,-173,l)
 );
 }
