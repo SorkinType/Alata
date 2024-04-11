@@ -111,6 +111,10 @@ automatic = 1;
 code = "lookup ccmp_DFLT_1 {
 	lookupflag 0;
 	sub acutecomb macroncomb by acutecomb_macroncomb;
+	sub brevecomb acutecomb by brevecomb_acutecomb;
+	sub brevecomb gravecomb by brevecomb_gravecomb;
+	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
+	sub brevecomb tildecomb by brevecomb_tildecomb;
 	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
 	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
 	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
@@ -132,8 +136,8 @@ lookup ccmp_Other_1 {
 
 lookup ccmp_Other_2 {
 	lookupflag 0;
-	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb circumflexcomb_gravecomb circumflexcomb_acutecomb circumflexcomb_tildecomb circumflexcomb_hookabovecomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb dotbelowcomb dieresisbelowcomb commaaccentcomb cedillacomb ogonekcomb brevebelowcomb macronbelowcomb];
-	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case circumflexcomb_gravecomb.case circumflexcomb_acutecomb.case circumflexcomb_tildecomb.case circumflexcomb_hookabovecomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case commaturnedabovecomb.case horncomb.case dotbelowcomb.case dieresisbelowcomb.case commaaccentcomb.case cedillacomb.case ogonekcomb.case brevebelowcomb.case macronbelowcomb.case];
+	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb circumflexcomb_gravecomb circumflexcomb_acutecomb circumflexcomb_tildecomb circumflexcomb_hookabovecomb caroncomb brevecomb brevecomb_gravecomb brevecomb_acutecomb brevecomb_tildecomb brevecomb_hookabovecomb ringcomb tildecomb macroncomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb dotbelowcomb dieresisbelowcomb commaaccentcomb cedillacomb ogonekcomb brevebelowcomb macronbelowcomb];
+	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case circumflexcomb_gravecomb.case circumflexcomb_acutecomb.case circumflexcomb_tildecomb.case circumflexcomb_hookabovecomb.case caroncomb.case brevecomb.case brevecomb_gravecomb.case brevecomb_acutecomb.case brevecomb_tildecomb.case brevecomb_hookabovecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case commaturnedabovecomb.case horncomb.case dotbelowcomb.case dieresisbelowcomb.case commaaccentcomb.case cedillacomb.case ogonekcomb.case brevebelowcomb.case macronbelowcomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_2;
@@ -705,6 +709,10 @@ sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;
 sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;
 sub caroncomb by caroncomb.case;
 sub brevecomb by brevecomb.case;
+sub brevecomb_gravecomb by brevecomb_gravecomb.case;
+sub brevecomb_acutecomb by brevecomb_acutecomb.case;
+sub brevecomb_tildecomb by brevecomb_tildecomb.case;
+sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.case;
 sub ringcomb by ringcomb.case;
 sub tildecomb by tildecomb.case;
 sub macroncomb by macroncomb.case;
@@ -15455,8 +15463,8 @@ width = 528;
 unicode = 307;
 },
 {
-glyphname = ij_acutecomb;
-lastChange = "2018-06-22 18:32:31 +0000";
+glyphname = ij_acute;
+lastChange = "2024-04-11 10:01:32 +0000";
 layers = (
 {
 layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
@@ -28548,45 +28556,6 @@ width = 563;
 unicode = 45;
 userData = {
 KernOnName = hyphen;
-KernOnSpecialSpacing = {
-L = hyphen;
-R = hyphen;
-};
-com.typemytype.robofont.mark = (
-0.656,
-1,
-0.6,
-1
-);
-};
-},
-{
-color = 0;
-glyphname = softhyphen;
-kernLeft = KO_softhyphen;
-kernRight = KO_softhyphen;
-lastChange = "2023-10-15 03:37:05 +0000";
-layers = (
-{
-layerId = "12ECCE5E-04E9-4725-8BD5-31F21F15BB81";
-shapes = (
-{
-closed = 1;
-nodes = (
-(453,271,l),
-(453,368,l),
-(110,368,l),
-(110,271,l)
-);
-}
-);
-width = 563;
-}
-);
-metricLeft = hyphen;
-metricRight = hyphen;
-unicode = 173;
-userData = {
 KernOnSpecialSpacing = {
 L = hyphen;
 R = hyphen;
@@ -70868,7 +70837,6 @@ quoteright = -72;
 quotesingle = -64;
 "rightanglebracket-math" = -107;
 semicolon = -24;
-softhyphen = -49;
 };
 bracketleft = {
 Acaron = -39;
@@ -73935,7 +73903,6 @@ hyphen.case = -136;
 plus = -136;
 q = -39;
 s = -26;
-softhyphen = -136;
 };
 quotesingle = {
 Abreve = -73;
@@ -74437,17 +74404,6 @@ slash.case = -150;
 two = -85;
 zero = -67;
 zero.zero = -67;
-};
-softhyphen = {
-C = -25;
-Cacute = -25;
-Ccaron = -25;
-Ccedilla = -25;
-Ccircumflex = -25;
-Cdotaccent = -25;
-bhook = -43;
-llinebelow = -47;
-mturned = -38;
 };
 summation = {
 parenright.case = -26;
