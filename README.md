@@ -1,9 +1,13 @@
 Alata by Sorkin Type
 ===========================
 
+![Sample Image](documentation/image1.png)
+
 Alata is an original typeface designed by [Spyros Zevelakis](https://www.2xux.com).
 
 It supports Windows 1252, Mac Roman, Google Core, Google Plus, Google Pro, Plus Optional, and Pro optional glyph sets, enabling the typesetting of English, Western European languages as well as Vietnamese and 130+ other languages.
+
+![Sample Image](documentation/image2.png)
 
 License
 -------
